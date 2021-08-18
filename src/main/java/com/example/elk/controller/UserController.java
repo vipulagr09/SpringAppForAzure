@@ -22,6 +22,6 @@ public class UserController {
 		
 		logger.debug(" debug- getting user from the DB with id " + id);
 		
-		return "user Found in Azue deployment ";
+		return "user Found in Azue deployment-New ";
 	}
 }
