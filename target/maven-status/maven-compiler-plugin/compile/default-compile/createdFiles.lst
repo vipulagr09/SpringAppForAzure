@@ -1,0 +1,5 @@
+com\example\elk\controller\UserController.class
+com\example\elk\ProjectForElkApplication.class
+com\example\elk\service\UserService.class
+com\example\elk\repository\UserRepository.class
+com\example\elk\model\User.class

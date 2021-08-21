@@ -42,7 +42,7 @@ public class UserController {
 		
 		userService.saveUser(userToSave);
 
-		return "user data saved";
+		return "user data saved with ID " + userToSave.getId();
 		
 	}
 }
