@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProjectForElkApplication {
+public class SpringAppForAzure {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProjectForElkApplication.class, args);
+		SpringApplication.run(SpringAppForAzure.class, args);
 	}
 
 	

@@ -1,5 +1,7 @@
 package com.example.elk.service;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 
 import org.slf4j.Logger;
@@ -27,7 +29,14 @@ public class UserService {
 		}
 		return null;
 	}
-	
+
+	public List<User> getAllUsers(){
+		Iterable<User> iterable = userRepo.findAll();
+
+		List<User> userList = new ArrayList<>();
+		iterable.forEach(x -> userList.add(x));
+		return userList;
+	}
 	public void saveUser(User userData)
 	{
 		userRepo.save(userData);
